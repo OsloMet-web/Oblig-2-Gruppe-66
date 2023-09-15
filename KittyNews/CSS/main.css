@@ -48,6 +48,11 @@ h3 {
     background-color: bisque;
 }
 
+.bigletter {
+    font-size: 3rem;
+    white-space: pre-line;
+}
+
 #forfatter-navn {
     color: #ff4e00;
 }
