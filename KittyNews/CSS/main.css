@@ -42,6 +42,12 @@ h3 {
     font-weight: 600;
 }
 
+.quote {
+    font-size: 1rem;
+    white-space: pre-line;
+    background-color: bisque;
+}
+
 #forfatter-navn {
-    color: #ff4e00;
+    color: #ffc6ad;
 }
