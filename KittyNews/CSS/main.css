@@ -29,6 +29,10 @@ h3 {
     text-transform: uppercase;
 }
 
+.orange-tekst {
+    color: #ff4e00;
+}
+
 .image-padding {
     padding-top: 1rem;
 }
