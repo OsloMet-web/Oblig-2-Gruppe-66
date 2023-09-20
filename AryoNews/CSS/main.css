@@ -53,6 +53,13 @@ h3 {
     white-space: pre-line;
 }
 
+.meth-right {
+    background-image: url(../Bildar/meth.png);
+    background-size: cover;
+    background-position: top;
+    position: left;
+}
+
 #forfatter-navn {
     color: #ff4e00;
 }
