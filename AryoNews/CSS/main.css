@@ -67,6 +67,11 @@ h3 {
     position: left;
 }
 
+.bildesize {
+    max-width: 100%;
+    height: auto;
+}
+
 #forfatter-navn {
     color: #ff4e00;
 }
