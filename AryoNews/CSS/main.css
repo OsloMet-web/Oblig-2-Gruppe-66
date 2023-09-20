@@ -60,6 +60,13 @@ h3 {
     position: left;
 }
 
+.bilde-left {
+    background-image: url(../Bildar/Mee.png);
+    background-size: cover;
+    background-position: top;
+    position: left;
+}
+
 #forfatter-navn {
     color: #ff4e00;
 }
