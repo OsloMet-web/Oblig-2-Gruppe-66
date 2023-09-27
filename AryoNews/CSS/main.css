@@ -17,6 +17,12 @@ h3 {
     font-size: 2rem;
 }
 
+.page2-h1 {
+    font-size: 3rem;
+    color: rgb(95,98,101);
+    font-weight: lighter;
+}
+
 .paragraph {
     font-size: 1rem;
     white-space: pre-line;
