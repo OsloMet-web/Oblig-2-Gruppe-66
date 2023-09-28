@@ -73,14 +73,14 @@ h3 {
 }
 
 .meth-right {
-    background-image: url(../Bildar/meth.png);
+    background-image: url(../images/meth.png);
     background-size: cover;
     background-position: top;
     position: left;
 }
 
 .bilde-left {
-    background-image: url(../Bildar/Mee.png);
+    background-image: url(../images/Mee.png);
     background-size: cover;
     background-position: top;
     position: left;
