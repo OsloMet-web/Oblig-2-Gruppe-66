@@ -3,15 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <title>Aryo news</title>
-        <link rel="stylesheet" href="CSS/main.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
 
     <body>
         <h1>BREAKING NEWS: Aryo Caught Struggling With Basic Math</h1>
         <h2>Experts say it's not the first time this has happened.</h2>
             <p class="forfatter-tekst"><span id="forfatter-navn">Sorkjev Dorkjev -</span> 13/09/2023, 99:99 AM</p>
-            <img src="Bildar/meth.png" class="bildesize" alt="Person struggling with math" width="800px" height="500px">
-            <p class="image-subtext">Person struggling with math</p>
+            <picture>
+                <source media = "(min-width: 700px)" srcset="images/hardmath.jpeg">
+                <!-- if page bigger or the same as 300 px then this, else next-->
+                <img srcset="images/hardmath-kopi.jpeg" class="bildesize" alt=" a picture of a person struggling with math.">
+            </picture>
+            <p class="image-subtext">Person struggling with math Photo: Gregory Jongston</p>
 
             <!--Har lagt in klassen orange-tekst for å highlighte tilfeldige deler av paragrafene, akkurat som på arstechnica.com-->
         <h3>The struggles of Aryo</h3>
@@ -71,12 +75,10 @@
     Gjøremål:
 
 	• Fikse footer
-	• Fikse CSS page 2
 	• Legge til link fra og til begge sider (kan være button, og/-eller en flex box navbar)
-	• Legge til teskt til bilde og kildehenvisning til bilde
+	• Legge til teskt til bilde og kildehenvisning til bilde. Picture element E
 	• Fikse random farge oransjer med faktiske linker/(fjerne det?)
-	• Picture element E
-	• Skalere siden
+	• Skalere siden (padding problemer)
 	
 	• Accesebillity 
 
