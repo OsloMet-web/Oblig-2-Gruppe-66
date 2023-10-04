@@ -6,10 +6,9 @@ body {
 
 }
 
-.no-padding {
+.body4page2 {
     left: 0px;
-    right: 0px;
-} 
+}
 
 .left {
     position: absolute;
@@ -144,8 +143,6 @@ a {
 }
 
 .flex-container-navbar>div {
-    padding-top: 20px;
-    padding-bottom: 20px;
     flex: auto;
     text-align: center;
 }
@@ -153,6 +150,8 @@ a {
 .flex-container-navbar>div>a {
     /* for at hele knappen skal være klikkbar */
     display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .flex-container-navbar>div:hover {
