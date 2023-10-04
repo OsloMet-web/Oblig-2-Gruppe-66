@@ -94,10 +94,10 @@ a {
 
 /* La til en grid på 3 kollonner og 1fr = 25% av ledig plass (hentet fra mozilla)   */
 
-.page1-grid-container {
+.bitcj {
     display: grid;
-    grid-column: 30px, 100px, auto;
-    grid-template-rows: auto;
+    grid-template-columns: 30px, 100px, auto;
+    grid-row: auto;
 }
 
 .p1grid1 {
