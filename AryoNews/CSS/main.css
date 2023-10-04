@@ -127,3 +127,13 @@ a {
     grid-row 4;
 
 }
+
+/* page-1 */
+
+.flex-container-navbar {
+    display: flex;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 100px, auto;
+    justify-content:space-around;
+    background-color: #ff4e00;
+}
