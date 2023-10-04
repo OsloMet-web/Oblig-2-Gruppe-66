@@ -97,7 +97,23 @@ a {
 
 .page1-grid-container {
     display: grid;
-    grid-template-rows: 300px, auto;
+    grid-column: 30px, 100px, auto;
+    grid-template-rows: auto;
+}
+
+.p1grid1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.p1grid2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.p1grid3 {
+    grid-column: 3;
+    grid-row: 1;
 }
 
 .grid-container {
