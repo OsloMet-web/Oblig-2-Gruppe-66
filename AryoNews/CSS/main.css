@@ -10,11 +10,6 @@ body {
     left: 0px;
 }
 
-.left {
-    position: absolute;
-    left: 50px;
-}
-
 h1 {
     font-size: 2.5rem;
 }
@@ -94,10 +89,10 @@ a {
 
 /* La til en grid på 3 kollonner og 1fr = 25% av ledig plass (hentet fra mozilla)   */
 
-.bitcj {
+.bitch {
     display: grid;
-    grid-template-columns: 30px, 100px, auto;
-    grid-row: auto;
+    grid-template-columns: 50px minmax(10rem, 40rem);
+    grid-template-rows: auto;
 }
 
 .p1grid1 {
@@ -107,11 +102,6 @@ a {
 
 .p1grid2 {
     grid-column: 2;
-    grid-row: 1;
-}
-
-.p1grid3 {
-    grid-column: 3;
     grid-row: 1;
 }
 
