@@ -7,8 +7,9 @@ body {
     
 }
 
-.body4page2 {
+.no-padding {
     left: 0px;
+    right: 0px;
 } 
 
 .left {
