@@ -137,13 +137,35 @@ a {
 
 .flex-container-navbar {
     display: flex;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 100px, auto;
     justify-content:space-around;
-    background-color: #ff4e00;
+    background-color: #d6d6d6;
 }
 
 
 #forfatter-navn {
     color: #ff4e00;
+}
+
+.flex-container-navbar > div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex: auto;
+    text-align: center;
+}
+
+.flex-container-navbar > div > a {
+    /* for at hele knappen skal være klikkbar */
+    display: block;
+}
+
+.flex-container-navbar > div:hover {
+    background-color: #968680;
+}
+
+.navbar-color-text {
+    color: black;
+}
+
+.active {
+    background-color: rgb(247, 122, 77);
 }
