@@ -8,8 +8,13 @@ body {
 }
 
 .body4page2 {
-    left: 0;
+    left: 0px;
 } 
+
+.left {
+    position: absolute;
+    left: 50px;
+}
 
 h1 {
     font-size: 2.5rem;
@@ -88,12 +93,12 @@ a {
     text-align: center;
 }
 
-
-#forfatter-navn {
-    color: #ff4e00;
-}
-
 /* La til en grid på 3 kollonner og 1fr = 25% av ledig plass (hentet fra mozilla)   */
+
+.page1-grid-container {
+    display: grid;
+    grid-template-rows: 300px,auto;
+}
 
 .grid-container {
     display: grid;
@@ -126,4 +131,8 @@ a {
     grid-column: 1 / 5;
     grid-row 4;
 
+}
+
+#forfatter-navn {
+    color: #ff4e00;
 }
