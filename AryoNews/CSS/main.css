@@ -74,9 +74,8 @@ a {
 }
 
 .bildesize {
-    max-width: 100%;
-    width: 800px;
-    height: 450px;
+    max-width: 60%;
+    min-width: 10px;
 }
 
 .footer {
