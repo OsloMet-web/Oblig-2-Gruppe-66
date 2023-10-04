@@ -1,15 +1,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     position: absolute;
     left: 20px;
-
-}
-
-.no-padding {
-    left: 0px;
-    top: 0px;
-    
 }
 
 h1 {
@@ -34,24 +26,6 @@ a {
     color: #ff4e00;
 }
 
-.page2-h1 {
-    font-size: 3rem;
-    font-weight: bolder;
-}
-
-.page2-h2 {
-    font-size: 2.5rem;
-}
-
-.page2-h3 {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.paragraph {
-    font-size: 1rem;
-    white-space: pre-line;
-}
 
 .forfatter-tekst {
     font-size: 0.75rem;
@@ -81,17 +55,38 @@ a {
 }
 
 .footer {
-
     background-color: #ff8100;
     padding: 20px;
     margin-top: 50px;
     text-align: center;
 }
 
-/* La til en grid på 3 kollonner og 1fr = 25% av ledig plass (hentet fra mozilla)   */
+.paragraph {
+    font-size: 1rem;
+    white-space: pre-line;
+}
+
+/* page2.html */
+
+.page2-h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.page2-h2 {
+    font-size: 2.5rem;
+}
+
+.page2-h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* grid index.html */ 
 
 .bitch {
     display: grid;
+    /* la til en grid på 3 kollonner og 1fr = 25% av ledig plass (hentet fra mozilla) */
     grid-template-columns: 50px minmax(10rem, 40rem);
     grid-template-rows: auto;
 }
@@ -105,6 +100,8 @@ a {
     grid-column: 2;
     grid-row: 1;
 }
+
+/* grid page2.html */
 
 .grid-container {
     display: grid;
@@ -121,32 +118,24 @@ a {
 .grid2 {
     grid-column: 2;
     grid-row: 2;
-
 }
 
 .grid3 {
     grid-column: 3;
     grid-row: 3;
-
 }
 
 .grid4 {
     grid-column: 1 / 5;
     grid-row: 4;
-
 }
 
-/* page-1 */
+/* navbar index.html */
 
 .flex-container-navbar {
     display: flex;
     justify-content: space-around;
     background-color: #d6d6d6;
-}
-
-
-#forfatter-navn {
-    color: #ff4e00;
 }
 
 .flex-container-navbar>div {
@@ -173,4 +162,13 @@ a {
     background-color: rgb(247, 122, 77);
 }
 
-/* må kommentere hva som er hva her */
+/* other */
+
+.no-padding {
+    left: 0px;
+    top: 0px;
+}
+
+#forfatter-navn {
+    color: #ff4e00;
+}
