@@ -1,3 +1,5 @@
+/* Flere tekstfonter for å støtte flere maskiner */
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
@@ -107,12 +109,16 @@ a {
 
 }
 
-.p2grid1 {
+/* setter hovedteksten sentrert på siden */
+
+.p2grid-main-text {
     grid-column: 2;
     grid-row: 2;
 }
 
-.p2grid2 {
+/* setter footer på bunnen og forlenger den på hele siden */
+
+.p2grid-footer {
     grid-column: 1 / 5;
     grid-row: 4;
 }
