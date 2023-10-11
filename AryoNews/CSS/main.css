@@ -53,8 +53,8 @@ a {
 }
 
 .bildesize {
-    max-width: 60%;
-    min-width: 10px;
+    max-width: 70%;
+    min-width: 30rem;
 }
 
 .footer {
