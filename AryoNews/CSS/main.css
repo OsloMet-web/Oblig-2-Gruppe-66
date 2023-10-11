@@ -95,11 +95,6 @@ a {
 }
 
 .p1grid1 {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.p1grid2 {
     grid-column: 2;
     grid-row: 1;
 }
@@ -114,21 +109,11 @@ a {
 }
 
 .p2grid1 {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.p2grid2 {
     grid-column: 2;
     grid-row: 2;
 }
 
-.p2grid3 {
-    grid-column: 3;
-    grid-row: 3;
-}
-
-.p2grid4 {
+.p2grid2 {
     grid-column: 1 / 5;
     grid-row: 4;
 }
