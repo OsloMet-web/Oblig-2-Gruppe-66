@@ -89,7 +89,6 @@ a {
 
 .p1grid {
     display: grid;
-    /* la til en grid på 3 kollonner og 1fr = 25% av ledig plass (hentet fra mozilla) */
     grid-template-columns: 3.125rem minmax(10rem, 40rem);
     grid-template-rows: auto;
 }
@@ -99,7 +98,7 @@ a {
     grid-row: 1;
 }
 
-/* grid page2.html */
+/* grid page2.html. La til en grid på 3 kollonner og 1fr = 25% av ledig plass (hentet fra mozilla) */
 
 .p2grid {
     display: grid;
